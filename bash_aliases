@@ -1,0 +1,8 @@
+alias ard='sudo chmod o+rw /dev/ttyUSB0 && ls -l /dev/ttyUSB0'
+alias reload='source ~/.bashrc'
+alias gps='sudo chmod 777 /dev/ttyUSB* && ls -al /dev/ttyUSB*'
+alias adb_connect='adb start-server; adb tcpip 5555'
+alias lh='ls -alh'
+alias adbkill='adb shell am force-stop com.tracmapglobal.morninglight.debug'
+alias update='sudo apt-get update && sudo apt update'
+alias upgrade='sudo apt-get upgrade && sudo apt upgrade'
