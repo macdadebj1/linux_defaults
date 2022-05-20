@@ -8,4 +8,4 @@ if [[ -e $name.png || -L $name.png ]] ; then
 	name=$name$i
 
 fi
-adb exec-out screencap -p > "$name".png
+adb exec-out screencap -p > "$name".png && xclip -i -selection clipboard -t image/png -i "$name".png
